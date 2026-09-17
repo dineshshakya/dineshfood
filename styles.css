@@ -291,3 +291,26 @@ input:disabled { background: #e6eff7; }
 @media (min-width: 1020px) {
   .stats-grid { grid-template-columns: repeat(4, 1fr); }
 }
+
+/* MEHKO bylaw section */
+.mehko { background: #fff; }
+.mehko h2 { color: var(--espresso); }
+.mehko .wrap { padding: 3.5rem 1.25rem; }
+.permit-banner { background: #fff8e6; border: 1px solid #f0d488; border-left: 5px solid #d9a821; border-radius: 0 var(--radius) var(--radius) 0; padding: 1rem 1.25rem; margin: 1.5rem 0 0; color: var(--ink); }
+.permit-banner-dark { background: rgba(94,178,239,.12); border: 1px solid var(--gold); border-radius: var(--radius); padding: 1rem 1.25rem; margin: 1.5rem 0 0; color: #eaf4fd; }
+.bylaw-grid { list-style: none; margin: 1.75rem 0 0; padding: 0; display: grid; gap: 1.25rem; }
+.bylaw-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.4rem 1.5rem; }
+.bylaw-card h3 { margin: 0 0 .5rem; color: var(--espresso); font-size: 1.08rem; }
+.bylaw-card p { margin: 0; color: var(--muted); font-size: .95rem; }
+.bylaw-note { margin-top: 1.5rem; color: var(--muted); font-size: .85rem; }
+.field-check { display: flex; gap: .6rem; align-items: flex-start; }
+.field-check input[type="checkbox"] { width: 1.15rem; height: 1.15rem; margin-top: .15rem; flex: none; accent-color: var(--maroon); }
+.field-check label { font-size: .92rem; color: var(--ink); }
+.req-note { color: var(--muted); font-size: .85rem; }
+
+@media (min-width: 720px) {
+  .bylaw-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1020px) {
+  .bylaw-grid { grid-template-columns: repeat(4, 1fr); }
+}
