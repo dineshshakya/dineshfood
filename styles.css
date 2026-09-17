@@ -246,3 +246,20 @@ input:disabled { background: #e6eff7; }
 @media (min-width: 1020px) {
   .menu-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Chef spotlight */
+.spotlight { background: #fff; }
+.spotlight h2 { color: var(--espresso); }
+.spotlight .wrap { padding: 3.5rem 1.25rem; }
+.chef-grid { list-style: none; margin: 1.75rem 0 0; padding: 0; display: grid; gap: 1.25rem; }
+.chef-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; text-align: center; box-shadow: 0 4px 14px rgba(22,50,79,.06); }
+.chef-avatar { display: inline-flex; align-items: center; justify-content: center; width: 4.5rem; height: 4.5rem; border-radius: 50%; background: var(--gold); color: var(--espresso); font-family: var(--serif); font-weight: 700; font-size: 1.4rem; margin-bottom: .8rem; }
+.chef-card h3 { margin: 0 0 .2rem; color: var(--espresso); font-size: 1.2rem; }
+.chef-specialty { color: var(--muted); font-size: .92rem; margin: 0 0 .4rem; }
+.chef-rating { color: #b7791f; font-weight: 700; margin: 0 0 .6rem; }
+.chef-rating span { color: var(--muted); font-weight: 400; font-size: .88rem; }
+.chef-bio { color: var(--muted); margin: 0; font-size: .95rem; }
+
+@media (min-width: 720px) {
+  .chef-grid { grid-template-columns: repeat(3, 1fr); }
+}
