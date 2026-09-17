@@ -217,3 +217,32 @@ input:disabled { background: #e6eff7; }
 @media (min-width: 1020px) {
   .feature-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Sample menu */
+.menu { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.menu h2, .faq h2 { color: var(--espresso); }
+.menu .wrap, .faq .wrap { padding: 3.5rem 1.25rem; }
+.menu-grid { list-style: none; margin: 1.75rem 0 0; padding: 0; display: grid; gap: 1.25rem; }
+.dish-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 14px rgba(22,50,79,.06); }
+.dish-card img { width: 100%; height: 11rem; object-fit: cover; display: block; }
+.dish-body { padding: 1rem 1.2rem 1.2rem; }
+.dish-body h3 { margin: 0 0 .2rem; font-size: 1.15rem; color: var(--espresso); }
+.dish-chef { color: var(--muted); font-size: .92rem; margin: 0 0 .6rem; }
+.dish-meta { display: flex; justify-content: space-between; align-items: center; }
+.dish-price { font-weight: 700; color: var(--maroon); font-size: 1.05rem; }
+.dish-rating { color: #b7791f; font-weight: 700; }
+.menu-note { color: var(--muted); font-size: .9rem; margin: 1.25rem 0 0; }
+
+/* FAQ */
+.faq-list { margin: 1.75rem 0 0; display: grid; gap: .8rem; }
+.faq-list details { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.25rem; }
+.faq-list summary { font-family: var(--serif); font-weight: 700; font-size: 1.05rem; color: var(--espresso); cursor: pointer; min-height: 48px; display: flex; align-items: center; }
+.faq-list summary:focus-visible { outline: 3px solid var(--gold-bright); outline-offset: 2px; }
+.faq-list details p { color: var(--muted); margin: .6rem 0 .2rem; }
+
+@media (min-width: 720px) {
+  .menu-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1020px) {
+  .menu-grid { grid-template-columns: repeat(3, 1fr); }
+}
