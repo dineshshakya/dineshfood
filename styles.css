@@ -263,3 +263,17 @@ input:disabled { background: #e6eff7; }
 @media (min-width: 720px) {
   .chef-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Testimonials */
+.stories { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.stories h2 { color: var(--espresso); }
+.stories .wrap { padding: 3.5rem 1.25rem; }
+.story-grid { list-style: none; margin: 1.75rem 0 0; padding: 0; display: grid; gap: 1.25rem; }
+.story-card { background: #fff; border: 1px solid var(--line); border-left: 5px solid var(--gold); border-radius: 0 var(--radius) var(--radius) 0; padding: 1.4rem 1.5rem; box-shadow: 0 4px 14px rgba(22,50,79,.06); }
+.story-quote { font-family: var(--serif); font-size: 1.1rem; color: var(--ink); margin: 0 0 .8rem; line-height: 1.5; }
+.story-who { font-weight: 700; color: var(--espresso); margin: 0; font-size: .95rem; }
+.story-who span { color: var(--muted); font-weight: 400; }
+
+@media (min-width: 720px) {
+  .story-grid { grid-template-columns: repeat(3, 1fr); }
+}
