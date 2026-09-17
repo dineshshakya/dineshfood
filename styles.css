@@ -92,6 +92,8 @@ section{padding:72px 0;}
 .audience-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:32px;}
 .audience-card p{color:var(--muted);margin:10px 0 4px;}
 .audience-card .btn{margin-top:18px;}
+.permit-help{font-size:.88rem !important;margin-top:12px !important;}
+.permit-help a{color:var(--sky);font-weight:700;}
 
 /* Menu */
 .menu-grid{list-style:none;display:grid;grid-template-columns:repeat(5,1fr);gap:18px;margin-top:8px;}
