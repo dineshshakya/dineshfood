@@ -314,3 +314,7 @@ input:disabled { background: #e6eff7; }
 @media (min-width: 1020px) {
   .bylaw-grid { grid-template-columns: repeat(4, 1fr); }
 }
+
+/* Business model section */
+.how-sub { color: #d9eafb; font-size: 1.05rem; margin: .5rem 0 0; }
+.fee-line { color: var(--gold-bright); font-weight: 600; margin: 1.75rem 0 0; font-size: 1.02rem; }
