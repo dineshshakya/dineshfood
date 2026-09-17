@@ -277,3 +277,17 @@ input:disabled { background: #e6eff7; }
 @media (min-width: 720px) {
   .story-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+/* Stats band */
+.stats { background: var(--espresso); }
+.stats .wrap { padding: 2.4rem 1.25rem; }
+.stats-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.4rem; text-align: center; }
+.stat-n { display: block; font-family: var(--serif); font-weight: 700; font-size: 2.1rem; color: var(--gold-bright); }
+.stat-l { display: block; color: #d9eafb; font-size: .95rem; margin-top: .2rem; }
+
+@media (min-width: 720px) {
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1020px) {
+  .stats-grid { grid-template-columns: repeat(4, 1fr); }
+}
