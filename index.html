@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Next Generation Digital Home Cooked — a SaaS platform connecting home chefs with people craving healthy, fresh, homemade food. Empowering home cooks to earn.">
+  <meta name="description" content="dineshfood — a SaaS marketplace for home-cooked food. Order homemade meals from MEHKO-permitted neighbor chefs in San Diego.">
   <meta name="theme-color" content="#16324f">
-  <title>Next Generation Digital Home Cooked — Connecting People for Healthy and Fresh Food</title>
+  <title>dineshfood — Homemade food, delivered by neighbors</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,414 +13,197 @@
 
   <header class="site-header">
     <div class="wrap header-inner">
-      <p class="brand">NextGen <span>Home Cooked</span></p>
+      <a class="brand" href="#top" aria-label="dineshfood home">dinesh<span>food</span></a>
       <nav aria-label="Main navigation">
         <ul>
-          <li><a href="#mission">Mission</a></li>
-          <li><a href="#chefs">For Chefs</a></li>
-          <li><a href="#consumers">For Food Lovers</a></li>
+          <li><a href="#demo">Live demo</a></li>
+          <li><a href="#how">How it works</a></li>
+          <li><a href="#model">Business model</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li><a href="#chefs-spotlight">Chefs</a></li>
-          <li><a href="#stories">Stories</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li><a href="#join" class="nav-cta">Join</a></li>
         </ul>
       </nav>
+      <a class="btn btn-primary btn-sm" href="#join">Join waitlist</a>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-bg" role="img" aria-label="Steaming basket of freshly made momos with bowls of achar"></div>
-      <div class="hero-shade" aria-hidden="true"></div>
+    <section class="hero" id="top" aria-labelledby="hero-title">
       <div class="wrap hero-inner">
-        <p class="eyebrow">A SaaS platform for home-cooked food</p>
-        <h1 id="hero-title">Connecting people for <em>healthy and fresh</em> food.</h1>
-        <p class="tagline">Next Generation Digital Home Cooked brings talented home chefs — mothers, home makers, community cooks — and hungry neighbors together on one simple platform.</p>
+        <p class="eyebrow">A SaaS marketplace for home-cooked food</p>
+        <h1 id="hero-title">Homemade food, from a neighbor's kitchen to your table.</h1>
+        <p class="lede">dineshfood connects talented home chefs with hungry neighbors. Order fresh, healthy homemade meals — cooked by MEHKO-permitted chefs in San Diego.</p>
         <div class="hero-ctas">
-          <a class="btn btn-gold" href="#join-chef">Join as a Home Chef</a>
-          <a class="btn btn-outline" href="#join-consumer">Find Food Near You</a>
+          <a class="btn btn-primary" href="#demo">Try the live demo</a>
+          <a class="btn btn-secondary" href="#join">Join the waitlist</a>
+        </div>
+        <p class="trust">MEHKO-permitted home chefs · Launching in San Diego</p>
+      </div>
+    </section>
+
+    <section class="demo" id="demo" aria-labelledby="demo-title">
+      <div class="wrap demo-inner">
+        <div class="demo-copy">
+          <p class="eyebrow">The product</p>
+          <h2 id="demo-title">Tap through the app.</h2>
+          <p>A working prototype of the dineshfood app — browse the menu, build a cart, and watch an order tracked like a ride. This is the product vision, live.</p>
+          <ul class="checklist">
+            <li>Real menu with natural food photography</li>
+            <li>Cart with a transparent 10% service fee</li>
+            <li>Uber-style live order tracking</li>
+            <li>Chef signup: profile, MEHKO permit upload, menu upload</li>
+          </ul>
+          <a class="btn btn-primary" href="https://dineshshakya.github.io/homemade-food-demo/" target="_blank" rel="noopener">Open full-screen demo</a>
+        </div>
+        <div class="phone">
+          <iframe src="https://dineshshakya.github.io/homemade-food-demo/" title="Live interactive demo of the dineshfood mobile app" loading="lazy"></iframe>
         </div>
       </div>
     </section>
 
-    <section class="stats" aria-label="Platform highlights">
+    <section class="how" id="how" aria-labelledby="how-title">
       <div class="wrap">
-        <ul class="stats-grid">
-          <li><span class="stat-n">150+</span><span class="stat-l">Founding home chefs</span></li>
-          <li><span class="stat-n">4.9</span><span class="stat-l">Average dish rating</span></li>
-          <li><span class="stat-n">12</span><span class="stat-l">Neighborhoods launching</span></li>
-          <li><span class="stat-n">$420</span><span class="stat-l">Avg. first-month chef earnings</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="mission" class="mission" aria-labelledby="mission-title">
-      <div class="wrap mission-inner">
-        <div class="mission-text">
-          <p class="eyebrow eyebrow-dark">Our Mission</p>
-          <h2 id="mission-title">Empowering home cooks to earn with pride.</h2>
-          <p>Our platform gives them a digital storefront: they post their menu, receive orders, and earn real household income — while neighbors enjoy fresh, healthy, homemade meals and catering they can trust.</p>
-        </div>
-        <ul class="mission-points">
-          <li><strong>Economic empowerment</strong><span>Home cooks turn their skill into household income.</span></li>
-          <li><strong>Community first</strong><span>Built for Aama Samuha, Guthi, and neighborhood cooks.</span></li>
-          <li><strong>Healthy &amp; fresh</strong><span>Real homemade food, made to order — never mass-produced.</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="chefs" class="actors actors-dark" aria-labelledby="chefs-title">
-      <div class="wrap">
-        <p class="eyebrow">For Home Chefs</p>
-        <h2 id="chefs-title">Your kitchen, your business.</h2>
-        <p class="section-sub">Everything a home chef needs to sell with confidence — no tech skills required.</p>
-        <div class="permit-banner-dark" role="note"><strong>Permit required:</strong> only home chefs with a valid San Diego County MEHKO permit can enroll and list dishes.</div>
-        <ul class="feature-grid">
-          <li class="feature">
-            <h3>Sign up as a chef</h3>
-            <p>Create your chef profile in minutes and introduce your cooking to the neighborhood.</p>
-          </li>
-          <li class="feature">
-            <h3>Your own dashboard</h3>
-            <p>A personal dashboard to run your kitchen business from your phone.</p>
-          </li>
-          <li class="feature">
-            <h3>Post &amp; manage your menu</h3>
-            <p>Add dishes with photos and prices. Update anything, anytime.</p>
-          </li>
-          <li class="feature">
-            <h3>Menu on / off switch</h3>
-            <p>Going on break? Toggle dishes or your whole menu off with one tap.</p>
-          </li>
-          <li class="feature">
-            <h3>Receive &amp; accept orders</h3>
-            <p>Orders come straight to you — accept the ones you can fulfill.</p>
-          </li>
-          <li class="feature">
-            <h3>Track order status</h3>
-            <p>Keep every order updated: accepted, cooking, ready, delivered.</p>
-          </li>
-        </ul>
-        <a class="btn btn-gold" href="#join-chef">Become a Home Chef</a>
-      </div>
-    </section>
-
-    <section id="consumers" class="actors" aria-labelledby="consumers-title">
-      <div class="wrap">
-        <p class="eyebrow eyebrow-dark">For Food Lovers</p>
-        <h2 id="consumers-title">Homemade food, found by zip code.</h2>
-        <p class="section-sub">Discover real home cooking near you — and know exactly who made it.</p>
-        <ul class="feature-grid">
-          <li class="feature">
-            <h3>Sign up as a consumer</h3>
-            <p>Join free and start exploring home kitchens in your area.</p>
-          </li>
-          <li class="feature">
-            <h3>Search by zip code</h3>
-            <p>Find menus by place, city, or zip — see what's cooking near you right now.</p>
-          </li>
-          <li class="feature">
-            <h3>Your order dashboard</h3>
-            <p>Track live order status and revisit your full order history anytime.</p>
-          </li>
-          <li class="feature">
-            <h3>Rate the food</h3>
-            <p>Rate dishes you loved and help the best home chefs shine.</p>
-          </li>
-        </ul>
-        <div class="zip-demo">
-          <h3>Try it: what's cooking near you?</h3>
-          <form id="zip-form" novalidate>
-            <label for="zip-input">Enter your zip code</label>
-            <div class="zip-row">
-              <input type="text" id="zip-input" name="zip" inputmode="numeric" placeholder="e.g. 92108" maxlength="10">
-              <button type="submit" class="btn btn-gold">Search</button>
-            </div>
-            <p class="zip-result" id="zip-result" role="status" hidden></p>
-          </form>
-        </div>
-        <a class="btn btn-gold" href="#join-consumer">Join as a Food Lover</a>
-      </div>
-    </section>
-
-    <section id="menu" class="menu" aria-labelledby="menu-title">
-      <div class="wrap">
-        <p class="eyebrow eyebrow-dark">Sample Menu</p>
-        <h2 id="menu-title">Fresh from neighborhood kitchens.</h2>
-        <p class="section-sub">A taste of what founding home chefs are cooking — real dishes, real neighbors, real ratings.</p>
-        <ul class="menu-grid">
-          <li class="dish-card">
-            <img src="images/steam-momo.webp" alt="Steamed momos with homemade achar" loading="lazy">
-            <div class="dish-body">
-              <h3>Steam Momo</h3>
-              <p class="dish-chef">by Chef Mina S. · 92108</p>
-              <div class="dish-meta"><span class="dish-price">$15</span><span class="dish-rating" aria-label="rated 4.9 out of 5">★ 4.9</span></div>
-            </div>
-          </li>
-          <li class="dish-card">
-            <img src="images/jhol-momo.webp" alt="Jhol momos in savory broth" loading="lazy">
-            <div class="dish-body">
-              <h3>Jhol Momo</h3>
-              <p class="dish-chef">by Chef Mina S. · 92108</p>
-              <div class="dish-meta"><span class="dish-price">$16</span><span class="dish-rating" aria-label="rated 4.8 out of 5">★ 4.8</span></div>
-            </div>
-          </li>
-          <li class="dish-card">
-            <img src="images/chilli-momo.webp" alt="Chicken chilli momos" loading="lazy">
-            <div class="dish-body">
-              <h3>Chicken Chilli Momo</h3>
-              <p class="dish-chef">by Chef Ramesh T. · 92108</p>
-              <div class="dish-meta"><span class="dish-price">$17</span><span class="dish-rating" aria-label="rated 4.9 out of 5">★ 4.9</span></div>
-            </div>
-          </li>
-          <li class="dish-card">
-            <img src="images/stirfry-momo.webp" alt="Stir fried momos with vegetables" loading="lazy">
-            <div class="dish-body">
-              <h3>Stir Fry Momo</h3>
-              <p class="dish-chef">by Chef Gita K. · 92108</p>
-              <div class="dish-meta"><span class="dish-price">$16</span><span class="dish-rating" aria-label="rated 4.7 out of 5">★ 4.7</span></div>
-            </div>
-          </li>
-          <li class="dish-card">
-            <img src="images/baked-momo.webp" alt="Baked momos, golden and crisp" loading="lazy">
-            <div class="dish-body">
-              <h3>Baked Momo</h3>
-              <p class="dish-chef">by Chef Ramesh T. · 92108</p>
-              <div class="dish-meta"><span class="dish-price">$17</span><span class="dish-rating" aria-label="rated 4.8 out of 5">★ 4.8</span></div>
-            </div>
-          </li>
-        </ul>
-        <p class="menu-note">Sample menus from founding chefs — dishes, prices, and availability vary by kitchen.</p>
-      </div>
-    </section>
-
-    <section id="chefs-spotlight" class="spotlight" aria-labelledby="spotlight-title">
-      <div class="wrap">
-        <p class="eyebrow eyebrow-dark">Founding Chefs</p>
-        <h2 id="spotlight-title">Meet the cooks behind the food.</h2>
-        <p class="section-sub">Real neighbors, verified home kitchens, loved by their communities.</p>
-        <ul class="chef-grid">
-          <li class="chef-card">
-            <span class="chef-avatar" aria-hidden="true">MS</span>
-            <h3>Chef Mina S.</h3>
-            <p class="chef-specialty">Steamed &amp; jhol momos · 92108</p>
-            <p class="chef-rating" aria-label="rated 4.9 out of 5 from 48 reviews">★ 4.9 <span>(48 reviews)</span></p>
-            <p class="chef-bio">Third-generation momo maker — her achar recipe is a neighborhood legend.</p>
-          </li>
-          <li class="chef-card">
-            <span class="chef-avatar" aria-hidden="true">RT</span>
-            <h3>Chef Ramesh T.</h3>
-            <p class="chef-specialty">Chilli &amp; baked momos · 92108</p>
-            <p class="chef-rating" aria-label="rated 4.8 out of 5 from 36 reviews">★ 4.8 <span>(36 reviews)</span></p>
-            <p class="chef-bio">Former restaurant cook turning weeknights into household income.</p>
-          </li>
-          <li class="chef-card">
-            <span class="chef-avatar" aria-hidden="true">GK</span>
-            <h3>Chef Gita K.</h3>
-            <p class="chef-specialty">Stir-fry momos &amp; thali · 92108</p>
-            <p class="chef-rating" aria-label="rated 4.7 out of 5 from 29 reviews">★ 4.7 <span>(29 reviews)</span></p>
-            <p class="chef-bio">Cooks the way her aama taught her — fresh, every single morning.</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="stories" class="stories" aria-labelledby="stories-title">
-      <div class="wrap">
-        <p class="eyebrow eyebrow-dark">Neighbor Stories</p>
-        <h2 id="stories-title">Loved on both sides of the table.</h2>
-        <ul class="story-grid">
-          <li class="story-card">
-            <p class="story-quote">"The jhol momo tastes like home. I order from Mina every Friday now."</p>
-            <p class="story-who">Priya R. <span>· Food lover, 92108</span></p>
-          </li>
-          <li class="story-card">
-            <p class="story-quote">"I earned $420 in my first month, cooking just two evenings a week."</p>
-            <p class="story-who">Chef Gita K. <span>· Home chef, 92108</span></p>
-          </li>
-          <li class="story-card">
-            <p class="story-quote">"Finally, real food in the neighborhood — not another delivery app."</p>
-            <p class="story-who">Daniel M. <span>· Food lover, 92108</span></p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="trust" class="trust" aria-labelledby="trust-title">
-      <div class="wrap">
-        <p class="eyebrow">Trust &amp; Safety</p>
-        <h2 id="trust-title">Good food, fairly kept.</h2>
-        <p class="section-sub">Admins keep the marketplace safe and fair for everyone.</p>
-        <ul class="trust-list">
-          <li><strong>Complaint review</strong><span>If a consumer reports a problem, the admin reviews it and warns the chef — everyone gets a fair hearing.</span></li>
-          <li><strong>Accountability</strong><span>Chefs with repeated complaints are blocked from the platform, keeping quality high for all.</span></li>
-          <li><strong>Community ratings</strong><span>Transparent dish ratings help the best home cooks rise to the top.</span></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="how" class="how" aria-labelledby="how-title">
-      <div class="wrap">
-        <p class="eyebrow">The Business Model</p>
+        <p class="eyebrow">How it works</p>
         <h2 id="how-title">As simple as ordering a ride.</h2>
-        <p class="how-sub">Uber connects riders with drivers. We connect food lovers with home chefs.</p>
         <ol class="steps">
-          <li><span class="step-n">1</span><div><strong>You order</strong><p>Hungry? Pick a homemade dish from a chef in your zip code.</p></div></li>
-          <li><span class="step-n">2</span><div><strong>A neighbor cooks</strong><p>A permitted home chef near you cooks it fresh, same day.</p></div></li>
-          <li><span class="step-n">3</span><div><strong>You eat</strong><p>Pick up or get it delivered. Pay in the app &mdash; no cash needed.</p></div></li>
+          <li><span class="step-n" aria-hidden="true">1</span><h3>You order</h3><p>Browse home-cooked dishes near you and check out in seconds.</p></li>
+          <li><span class="step-n" aria-hidden="true">2</span><h3>A neighbor cooks</h3><p>A permitted home chef confirms and cooks your meal fresh.</p></li>
+          <li><span class="step-n" aria-hidden="true">3</span><h3>You eat</h3><p>Track your order live, then pick up or get it delivered.</p></li>
         </ol>
-        <p class="fee-line">Chefs keep most of every order. The platform keeps a small service fee to run the marketplace.</p>
       </div>
     </section>
 
-    <section id="faq" class="faq" aria-labelledby="faq-title">
+    <section class="model" id="model" aria-labelledby="model-title">
       <div class="wrap">
-        <p class="eyebrow eyebrow-dark">FAQ</p>
+        <p class="eyebrow">Business model</p>
+        <h2 id="model-title">Chefs keep most of every order.</h2>
+        <p class="section-sub">One transparent fee. No hidden cuts.</p>
+        <div class="split" role="img" aria-label="On a 100 dollar order, the chef keeps 90 dollars and the platform keeps a 10 dollar service fee">
+          <span class="split-chef">Chef · $90</span><span class="split-fee">10%</span>
+        </div>
+        <div class="split-cards">
+          <div class="split-card"><h3>Chef earns</h3><p><strong>$90</strong> of every $100 order</p></div>
+          <div class="split-card"><h3>Platform revenue</h3><p><strong>10%</strong> service fee on each order</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="audiences" aria-label="For chefs and food lovers">
+      <div class="wrap audience-grid">
+        <div class="audience-card">
+          <h2>For home chefs</h2>
+          <p>Turn your kitchen into income. Post your menu, toggle availability, accept orders, track earnings.</p>
+          <ul class="checklist">
+            <li>Valid San Diego County MEHKO permit required</li>
+            <li>Keep most of every order</li>
+            <li>Simple menu &amp; order dashboard</li>
+          </ul>
+          <a class="btn btn-primary" href="https://dineshshakya.github.io/homemade-food-demo/#screen-chef" target="_blank" rel="noopener">Apply as a chef</a>
+        </div>
+        <div class="audience-card">
+          <h2>For food lovers</h2>
+          <p>Real homemade food near you — the flavors of someone's kitchen, not a commissary.</p>
+          <ul class="checklist">
+            <li>Search menus by zip code</li>
+            <li>Live order tracking</li>
+            <li>Rate dishes &amp; chefs</li>
+          </ul>
+          <a class="btn btn-secondary" href="#join">Get notified at launch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <p class="eyebrow">Sample menu</p>
+        <h2 id="menu-title">Launching with momos.</h2>
+        <p class="section-sub">Five varieties, homemade Nepali-style achar with every order.</p>
+        <ul class="menu-grid">
+          <li><img src="images/steam-momo.webp" alt="Steam momo served with sesame and tomato achar" loading="lazy"><h3>Steam Momo</h3><p class="price">$15</p></li>
+          <li><img src="images/jhol-momo.webp" alt="Jhol momo in a bowl of spiced sesame-tomato broth" loading="lazy"><h3>Jhol Momo</h3><p class="price">$16</p></li>
+          <li><img src="images/chilli-momo.webp" alt="Chicken chilli momo tossed with peppers and onions" loading="lazy"><h3>Chicken Chilli Momo</h3><p class="price">$17</p></li>
+          <li><img src="images/stirfry-momo.webp" alt="Stir fry momo with cabbage, carrots and scallions" loading="lazy"><h3>Stir Fry Momo</h3><p class="price">$16</p></li>
+          <li><img src="images/baked-momo.webp" alt="Golden baked momo on a wooden board" loading="lazy"><h3>Baked Momo</h3><p class="price">$16</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="join" id="join" aria-labelledby="join-title">
+      <div class="wrap join-inner">
+        <p class="eyebrow">Waitlist</p>
+        <h2 id="join-title">Be first in line.</h2>
+        <p class="section-sub">Launching in San Diego. Chefs and food lovers welcome.</p>
+        <form id="waitlist-form" novalidate>
+          <div class="field"><label for="w-name">Name</label><input id="w-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="w-contact">Phone or email</label><input id="w-contact" name="contact" type="text" autocomplete="email" required></div>
+          <div class="field"><label for="w-zip">Zip code</label><input id="w-zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" required></div>
+          <fieldset class="field">
+            <legend>I am a…</legend>
+            <label class="radio"><input type="radio" name="role" value="chef" required> Home chef</label>
+            <label class="radio"><input type="radio" name="role" value="eater" required> Food lover</label>
+          </fieldset>
+          <p class="permit-note" id="permit-note" hidden>
+            <input type="checkbox" id="w-permit">
+            <label for="w-permit">I hold a valid San Diego County MEHKO permit. <a href="https://dineshshakya.github.io/homemade-food-demo/#screen-chef" target="_blank" rel="noopener">Or use the full chef signup</a>.</label>
+          </p>
+          <p class="form-error" id="w-error" role="alert" hidden></p>
+          <button class="btn btn-primary btn-block" type="submit">Join the waitlist</button>
+          <p class="fine">Demo form — submissions aren't stored anywhere yet.</p>
+        </form>
+        <div class="form-done" id="w-done" hidden>
+          <p class="done-check" aria-hidden="true">✓</p>
+          <h3>You're on the list!</h3>
+          <p>We'll reach out when dineshfood launches in your area.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-inner">
+        <p class="eyebrow">FAQ</p>
         <h2 id="faq-title">Questions, answered.</h2>
-        <div class="faq-list">
-          <details>
-            <summary>Is the food safe to eat?</summary>
-            <p>Yes. Home chefs follow food-safety practices, every dish carries public community ratings, and admins review each complaint — chefs with repeated issues are removed from the platform.</p>
-          </details>
-          <details>
-            <summary>How do I pay for my order?</summary>
-            <p>You pay securely when you order, and chefs receive their earnings through weekly payouts.</p>
-          </details>
-          <details>
-            <summary>Is it delivery or pickup?</summary>
-            <p>Each chef sets their own options — many offer neighborhood delivery, and pickup is always available.</p>
-          </details>
-          <details>
-            <summary>How do home chefs join?</summary>
-            <p>Sign up, post your menu, and switch your availability on. You receive orders, cook fresh, and track everything from your own dashboard.</p>
-          </details>
-          <details>
-            <summary>When will it launch in my neighborhood?</summary>
-            <p>We are onboarding area by area. Join the waitlist below and we will reach out as soon as your zip code opens.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section id="join" class="join" aria-labelledby="join-title">
-      <div class="wrap">
-        <p class="eyebrow eyebrow-dark">Join the Platform</p>
-        <h2 id="join-title">Be first in your neighborhood.</h2>
-        <p class="section-sub">We're onboarding founding chefs and early food lovers now. Tell us who you are — we'll reach out as soon as your area opens.</p>
-        <div class="join-grid">
-          <div class="join-card" id="join-chef">
-            <h3>I'm a home chef</h3>
-            <p>I cook great food and want to earn from it.</p>
-            <form class="waitlist-form" data-role="home chef" novalidate>
-              <div class="field">
-                <label for="chef-name">Your name</label>
-                <input type="text" id="chef-name" name="name" autocomplete="name" required>
-              </div>
-              <div class="field">
-                <label for="chef-phone">Phone number</label>
-                <input type="tel" id="chef-phone" name="phone" autocomplete="tel" required>
-              </div>
-              <div class="field">
-                <label for="chef-zip">Zip code</label>
-                <input type="text" id="chef-zip" name="zip" inputmode="numeric" placeholder="e.g. 92108" required>
-              </div>
-              <div class="field">
-                <label for="chef-food">What do you love cooking?</label>
-                <input type="text" id="chef-food" name="specialty" placeholder="e.g. momos, thali, Newari dishes">
-              </div>
-              <p class="form-error" role="alert" hidden></p>
-              <div class="field field-check">
-                <input type="checkbox" id="chef-permit" name="permit">
-                <label for="chef-permit">I hold a valid San Diego County MEHKO permit <span class="req-note">(required to enroll)</span></label>
-              </div>
-              <button type="submit" class="btn btn-gold btn-block">Join as a Home Chef</button>
-              <p class="form-done" role="status" hidden></p>
-            </form>
-          </div>
-          <div class="join-card" id="join-consumer">
-            <h3>I'm a food lover</h3>
-            <p>I want fresh homemade food near me.</p>
-            <form class="waitlist-form" data-role="food lover" novalidate>
-              <div class="field">
-                <label for="con-name">Your name</label>
-                <input type="text" id="con-name" name="name" autocomplete="name" required>
-              </div>
-              <div class="field">
-                <label for="con-phone">Phone number</label>
-                <input type="tel" id="con-phone" name="phone" autocomplete="tel" required>
-              </div>
-              <div class="field">
-                <label for="con-zip">Zip code</label>
-                <input type="text" id="con-zip" name="zip" inputmode="numeric" placeholder="e.g. 92108" required>
-              </div>
-              <p class="form-error" role="alert" hidden></p>
-              <button type="submit" class="btn btn-gold btn-block">Notify Me at Launch</button>
-              <p class="form-done" role="status" hidden></p>
-            </form>
-          </div>
-        </div>
+        <details><summary>Is this a real ordering service yet?</summary><p>Not yet — dineshfood is in development. The demo app shows the product vision. Join the waitlist to be notified at launch.</p></details>
+        <details><summary>Who can cook on dineshfood?</summary><p>Home chefs with a valid San Diego County MEHKO (Microenterprise Home Kitchen Operation) permit. We verify every permit before a kitchen goes live.</p></details>
+        <details><summary>How does dineshfood make money?</summary><p>A single 10% service fee on each order. Chefs keep the rest.</p></details>
+        <details><summary>Where are you launching?</summary><p>San Diego, starting with 92108 and surrounding neighborhoods.</p></details>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap">
-      <p class="foot-brand">NextGen <span>Home Cooked</span></p>
-      <p>Connecting people for healthy and fresh food.</p>
-      <p class="tiny">© 2026 Next Generation Digital Home Cooked. A business viability concept.</p>
+    <div class="wrap footer-inner">
+      <p class="brand">dinesh<span>food</span></p>
+      <p class="fine">© 2026 dineshfood · A concept in development · San Diego, CA</p>
     </div>
   </footer>
 
   <script>
-    // Zip demo — honest waitlist, no fake results.
-    document.getElementById("zip-form").addEventListener("submit", function (e) {
-      e.preventDefault();
-      var zip = document.getElementById("zip-input").value.trim();
-      var out = document.getElementById("zip-result");
-      out.hidden = false;
-      if (!zip) {
-        out.textContent = "Please enter a zip code to search.";
-        return;
-      }
-      out.textContent = "We're onboarding chefs near " + zip + " right now — join the waitlist below and we'll notify you at launch.";
-      out.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    });
-
-    // Waitlist forms — front-end only for now.
-    document.querySelectorAll(".waitlist-form").forEach(function (form) {
-      form.addEventListener("submit", function (e) {
-        e.preventDefault();
-        var err = form.querySelector(".form-error");
-        var done = form.querySelector(".form-done");
-        err.hidden = true;
-
-        var name = form.querySelector('[name="name"]').value.trim();
-        var phone = form.querySelector('[name="phone"]').value.trim();
-        var zip = form.querySelector('[name="zip"]').value.trim();
-        if (!name || !phone || !zip) {
-          err.textContent = "Please fill in your name, phone number, and zip code.";
-          err.hidden = false;
-          err.focus();
-          return;
-        }
-        var role = form.getAttribute("data-role");
-        if (role === "home chef") {
-          var permit = form.querySelector('[name="permit"]');
-          if (permit && !permit.checked) {
-            err.textContent = "Chef enrollment requires a valid San Diego County MEHKO permit. Please confirm you hold one before joining.";
-            err.hidden = false;
-            err.focus();
-            return;
-          }
-        }
-        done.textContent = "Thank you, " + name + "! You're on the " + role + " waitlist for " + zip + ". We'll reach out soon.";
-        done.hidden = false;
-        form.querySelectorAll("input").forEach(function (i) { i.disabled = true; });
-        form.querySelector('button[type="submit"]').disabled = true;
-        done.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    (function(){
+      var form = document.getElementById('waitlist-form');
+      var done = document.getElementById('w-done');
+      var err = document.getElementById('w-error');
+      var permitNote = document.getElementById('permit-note');
+      var roles = form.querySelectorAll('input[name="role"]');
+      roles.forEach(function(r){
+        r.addEventListener('change', function(){
+          var isChef = form.querySelector('input[name="role"]:checked').value === 'chef';
+          permitNote.hidden = !isChef;
+        });
       });
-    });
+      form.addEventListener('submit', function(e){
+        e.preventDefault();
+        err.hidden = true;
+        var name = document.getElementById('w-name').value.trim();
+        var contact = document.getElementById('w-contact').value.trim();
+        var zip = document.getElementById('w-zip').value.trim();
+        var role = form.querySelector('input[name="role"]:checked');
+        if (!name || !contact || !zip || !role){ fail('Please fill in every field.'); return; }
+        if (role.value === 'chef' && !document.getElementById('w-permit').checked){ fail('Chefs need a valid San Diego County MEHKO permit to join.'); return; }
+        form.hidden = true; done.hidden = false;
+        done.scrollIntoView({behavior:'smooth', block:'center'});
+      });
+      function fail(msg){ err.textContent = msg; err.hidden = false; }
+    })();
   </script>
 </body>
 </html>
