@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Healthy Homemade with Love — fresh Nepali-style momos, home delivered in San Diego 92108. Five varieties, made with love.">
-  <meta name="theme-color" content="#7a2e1d">
-  <title>Healthy Homemade with Love — Nepali-Style Momos, Home Delivered in San Diego</title>
+  <meta name="description" content="Healthy Homemade with Love — authentic Nepali-style momos, homemade and home delivered in San Diego 92108.">
+  <meta name="theme-color" content="#241109">
+  <title>Healthy Homemade with Love — Authentic Nepali Momos, Home Delivered in San Diego</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,9 +16,9 @@
       <p class="brand">Healthy Homemade <span>with Love</span></p>
       <nav aria-label="Main navigation">
         <ul>
+          <li><a href="#story">Our Story</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li><a href="#how-it-works">How It Works</a></li>
-          <li><a href="#order">Order</a></li>
+          <li><a href="#order" class="nav-cta">Order Now</a></li>
         </ul>
       </nav>
     </div>
@@ -26,62 +26,74 @@
 
   <main id="main">
     <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" role="img" aria-label="Steaming basket of freshly made chicken momos with bowls of red achar and green chutney"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
       <div class="wrap hero-inner">
-        <div class="hero-text">
-          <h1 id="hero-title">Nepali-style momos, made at home, delivered to your door.</h1>
-          <p>Five varieties of fresh, juicy momos — every order served with our homemade Nepali-style achar. Home delivery in San Diego&nbsp;92108 and nearby.</p>
-          <a class="btn btn-primary" href="#order">Order Now</a>
-          <a class="btn btn-ghost" href="#menu">See the Menu</a>
+        <p class="eyebrow">San Diego · Home Kitchen · 92108</p>
+        <h1 id="hero-title">Healthy Homemade <em>with Love</em></h1>
+        <p class="tagline">Authentic Nepali-style momos, hand-pleated at home and delivered fresh to your door — every order served with our homemade achar.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-gold" href="#order">Order Now</a>
+          <a class="btn btn-outline" href="#menu">Explore the Menu</a>
         </div>
-        <div class="hero-img">
-          <img src="images/hero-momo.webp" alt="Steaming bamboo basket of freshly made chicken momos with bowls of red sesame-tomato achar and green chutney" width="1200" height="1200" fetchpriority="high">
+      </div>
+    </section>
+
+    <section id="story" class="story" aria-labelledby="story-title">
+      <div class="wrap story-inner">
+        <div class="story-text">
+          <p class="eyebrow eyebrow-dark">Our Story</p>
+          <h2 id="story-title">The momos we grew up with.</h2>
+          <p>We're a San Diego home kitchen cooking the food we love — juicy, hand-pleated momos made fresh for every order, the way they're made back home in Nepal. No shortcuts, no frozen fillers: just real homemade flavor, finished with our own Nepali-style achar.</p>
+          <p>Five varieties. One home kitchen. Made with love, delivered to your door.</p>
+        </div>
+        <div class="story-facts">
+          <div class="fact"><strong>5</strong><span>momo varieties</span></div>
+          <div class="fact"><strong>$15–17</strong><span>per order</span></div>
+          <div class="fact"><strong>92108</strong><span>home delivery</span></div>
         </div>
       </div>
     </section>
 
     <section id="menu" class="menu" aria-labelledby="menu-title">
       <div class="wrap">
-        <h2 id="menu-title">The Menu</h2>
-        <p class="menu-note">Every order comes with our homemade Nepali-style achar. All items <strong>$15–$17 per order</strong>.</p>
+        <p class="eyebrow eyebrow-dark">Menu</p>
+        <h2 id="menu-title">Our Momos</h2>
+        <p class="menu-note">Every order comes with our homemade Nepali-style achar.</p>
         <ul class="menu-grid">
-          <li class="menu-card">
-            <img src="images/steam-momo.webp" alt="Classic steamed chicken momos in a bamboo steamer" width="800" height="800" loading="lazy">
-            <div class="menu-card-body">
-              <h3>Steam Momo</h3>
+          <li class="dish">
+            <div class="dish-img"><img src="images/steam-momo.webp" alt="Classic steamed chicken momos in a bamboo steamer" width="800" height="800" loading="lazy"></div>
+            <div class="dish-body">
+              <div class="dish-head"><h3>Steam Momo</h3><span class="dots" aria-hidden="true"></span><p class="price">$15–17</p></div>
               <p>The classic — plump, pleated chicken momos steamed fresh to order.</p>
-              <p class="price">$15–$17 <span>per order</span></p>
             </div>
           </li>
-          <li class="menu-card">
-            <img src="images/jhol-momo.webp" alt="Jhol momo — steamed momos served in spicy sesame-tomato achar broth" width="800" height="800" loading="lazy">
-            <div class="menu-card-body">
-              <h3>Jhol Momo</h3>
+          <li class="dish">
+            <div class="dish-img"><img src="images/jhol-momo.webp" alt="Jhol momo — steamed momos served in spicy sesame-tomato achar broth" width="800" height="800" loading="lazy"></div>
+            <div class="dish-body">
+              <div class="dish-head"><h3>Jhol Momo</h3><span class="dots" aria-hidden="true"></span><p class="price">$15–17</p></div>
               <p>Steamed momos drowned in our spicy sesame-tomato achar broth. A must-try.</p>
-              <p class="price">$15–$17 <span>per order</span></p>
             </div>
           </li>
-          <li class="menu-card">
-            <img src="images/chilli-momo.webp" alt="Chicken chilli momo tossed in red chilli sauce with peppers and onions" width="800" height="800" loading="lazy">
-            <div class="menu-card-body">
-              <h3>Chicken Chilli Momo</h3>
+          <li class="dish">
+            <div class="dish-img"><img src="images/chilli-momo.webp" alt="Chicken chilli momo tossed in red chilli sauce with peppers and onions" width="800" height="800" loading="lazy"></div>
+            <div class="dish-body">
+              <div class="dish-head"><h3>Chicken Chilli Momo</h3><span class="dots" aria-hidden="true"></span><p class="price">$15–17</p></div>
               <p>Momos tossed in fiery chilli sauce with peppers and onions. For spice lovers.</p>
-              <p class="price">$15–$17 <span>per order</span></p>
             </div>
           </li>
-          <li class="menu-card">
-            <img src="images/stirfry-momo.webp" alt="Stir fry momo — sliced momos wok-tossed with cabbage, carrots and scallions" width="800" height="800" loading="lazy">
-            <div class="menu-card-body">
-              <h3>Stir Fry Momo</h3>
+          <li class="dish">
+            <div class="dish-img"><img src="images/stirfry-momo.webp" alt="Stir fry momo — sliced momos wok-tossed with cabbage, carrots and scallions" width="800" height="800" loading="lazy"></div>
+            <div class="dish-body">
+              <div class="dish-head"><h3>Stir Fry Momo</h3><span class="dots" aria-hidden="true"></span><p class="price">$15–17</p></div>
               <p>Momos wok-tossed with crunchy veggies in a light savory glaze.</p>
-              <p class="price">$15–$17 <span>per order</span></p>
             </div>
           </li>
-          <li class="menu-card">
-            <img src="images/baked-momo.webp" alt="Golden oven-baked momos with crisped edges" width="800" height="800" loading="lazy">
-            <div class="menu-card-body">
-              <h3>Baked Momo</h3>
+          <li class="dish">
+            <div class="dish-img"><img src="images/baked-momo.webp" alt="Golden oven-baked momos with crisped edges" width="800" height="800" loading="lazy"></div>
+            <div class="dish-body">
+              <div class="dish-head"><h3>Baked Momo</h3><span class="dots" aria-hidden="true"></span><p class="price">$15–17</p></div>
               <p>Oven-baked until golden with deliciously crisp edges. A house favorite.</p>
-              <p class="price">$15–$17 <span>per order</span></p>
             </div>
           </li>
         </ul>
@@ -90,19 +102,23 @@
 
     <section id="how-it-works" class="how" aria-labelledby="how-title">
       <div class="wrap">
-        <h2 id="how-title">How It Works</h2>
+        <p class="eyebrow">How It Works</p>
+        <h2 id="how-title">From our kitchen to your door</h2>
         <ol class="steps">
-          <li><strong>Pick your momos</strong> — choose from all five varieties on the order form below.</li>
-          <li><strong>Send your order</strong> — fill in the form and text us your order.</li>
-          <li><strong>We cook &amp; deliver</strong> — fresh from our home kitchen to your door in 92108 and nearby areas.</li>
+          <li><span class="step-n">1</span><div><strong>Pick your momos</strong><p>Choose from all five varieties on the order form below.</p></div></li>
+          <li><span class="step-n">2</span><div><strong>Send your order</strong><p>Fill in the form and text us your order summary.</p></div></li>
+          <li><span class="step-n">3</span><div><strong>We cook &amp; deliver</strong><p>Fresh from our home kitchen to your door in 92108 and nearby areas.</p></div></li>
         </ol>
       </div>
     </section>
 
     <section id="order" class="order" aria-labelledby="order-title">
-      <div class="wrap">
-        <h2 id="order-title">Order</h2>
-        <p>Fill this out, then text us your order summary. We deliver to homes in San Diego&nbsp;92108 and nearby.</p>
+      <div class="wrap order-inner">
+        <div class="order-intro">
+          <p class="eyebrow eyebrow-dark">Order</p>
+          <h2 id="order-title">Craving momos tonight?</h2>
+          <p>Build your order below, then text it to us. We home-deliver in San Diego&nbsp;92108 and nearby.</p>
+        </div>
         <form id="order-form" novalidate>
           <div class="field">
             <label for="cust-name">Your name</label>
@@ -144,30 +160,23 @@
             <textarea id="cust-notes" name="notes" rows="3"></textarea>
           </div>
           <p class="form-error" id="form-error" role="alert" hidden></p>
-          <button type="submit" class="btn btn-primary btn-block">Build My Order</button>
+          <button type="submit" class="btn btn-gold btn-block">Build My Order</button>
         </form>
 
         <div id="order-summary" class="order-summary" hidden>
           <h3>Your order</h3>
           <div id="summary-body"></div>
           <p class="order-cta">Text this order to <strong id="order-phone">(phone number coming soon)</strong> and we'll confirm your total and delivery time.</p>
-          <button type="button" class="btn btn-ghost" id="edit-order">Edit order</button>
+          <button type="button" class="btn btn-outline-dark" id="edit-order">Edit order</button>
         </div>
-      </div>
-    </section>
-
-    <section class="about" aria-labelledby="about-title">
-      <div class="wrap">
-        <h2 id="about-title">Made at Home, with Love</h2>
-        <p>We're a San Diego home kitchen cooking the momos we grew up with — hand-pleated, made fresh, and served with our own Nepali-style achar. No shortcuts, just real homemade flavor delivered to your door.</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="wrap">
-      <p><strong>Healthy Homemade with Love</strong></p>
-      <p>San Diego, CA 92108 · homemadefood4you.com</p>
+      <p class="foot-brand">Healthy Homemade <span>with Love</span></p>
+      <p>Authentic Nepali-style momos · San Diego, CA 92108</p>
       <p class="tiny">© 2026 Healthy Homemade with Love. All rights reserved.</p>
     </div>
   </footer>
